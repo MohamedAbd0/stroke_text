@@ -33,30 +33,27 @@ class MyApp extends StatelessWidget {
 class MyHome extends StatelessWidget {
   const MyHome({Key? key}) : super(key: key);
 
-@override
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Stroke Text"),
         centerTitle: true,
       ),
-      body: Center(
+      body: const Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const <Widget>[
-            StrokeText(text: "Stroke Text",),
+          children: <Widget>[
             StrokeText(
               text: "Stroke Text",
-              textStyle: TextStyle(
-                  fontSize: 50
-              ),
+            ),
+            StrokeText(
+              text: "Stroke Text",
+              textStyle: TextStyle(fontSize: 50),
             ),
             StrokeText(
               text: "Flutter",
-              textStyle: TextStyle(
-                  fontSize: 50,
-                  color: Colors.green
-              ),
+              textStyle: TextStyle(fontSize: 50, color: Colors.green),
               strokeColor: Colors.amber,
               strokeWidth: 5,
             ),
@@ -65,7 +62,4 @@ class MyHome extends StatelessWidget {
       ),
     );
   }
-
 }
-
-

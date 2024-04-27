@@ -1,3 +1,4 @@
-## 0.0.1
+## 0.0.2
 
-* TODO: Describe initial release.
+* support for textalign
+* support for maxline
