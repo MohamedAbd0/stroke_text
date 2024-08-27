@@ -47,6 +47,7 @@ class StrokeText extends StatelessWidget {
         Text(
           text,
           style: TextStyle(color: textColor).merge(textStyle),
+          textAlign: textAlign,
           textDirection: textDirection,
           textScaler: textScaler,
           overflow: overflow,
