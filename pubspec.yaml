@@ -1,6 +1,6 @@
 name: stroke_text
 description: A Simple Flutter plugin for applying stroke (border) style to a text widget
-version: 0.0.3
+version: 1.0.0
 homepage: https://github.com/MohamedAbd0/stroke_text
 
 environment:

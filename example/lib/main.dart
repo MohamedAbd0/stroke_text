@@ -45,17 +45,11 @@ class MyHome extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             StrokeText(
-              text: "Stroke Text",
-            ),
-            StrokeText(
-              text: "Stroke Text",
-              textStyle: TextStyle(fontSize: 50),
-            ),
-            StrokeText(
-              text: "Flutter",
-              textStyle: TextStyle(fontSize: 50, color: Colors.green),
-              strokeColor: Colors.amber,
-              strokeWidth: 5,
+              text: 'Stroke Text',
+              textStyle: TextStyle(fontSize: 32, color: Colors.white),
+              strokeWidth: 3,
+              strokeColor: Colors.black,
+              textAlign: TextAlign.center,
             ),
           ],
         ),
